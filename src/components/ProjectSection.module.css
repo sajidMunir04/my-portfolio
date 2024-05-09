@@ -1,0 +1,10 @@
+.container{
+    padding: 0% var(--side-padding);
+    text-align: start;
+    margin-top: 32%;
+}
+
+.text{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+}

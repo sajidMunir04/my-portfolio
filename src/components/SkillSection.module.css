@@ -1,0 +1,12 @@
+.container{
+    text-align: start;
+    padding: 0% var(--side-padding);
+    margin-top: 32%;
+}
+
+.skillDetailsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
