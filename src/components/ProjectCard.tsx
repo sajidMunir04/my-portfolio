@@ -1,4 +1,3 @@
-import SkillTag from "./SkillTag";
 import styles from "./ProjectCard.module.css";
 
 interface Props {
