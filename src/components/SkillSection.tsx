@@ -8,7 +8,7 @@ function SkillSection() {
         <SectionHeading headingText={"Skills"}/>
         <div>
             <div>
-                <p>Web Development</p>
+                <p className={styles.skillHeading}>Web Development</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"HTML"} />
                 <SkillTag skillName={"CSS"} />
@@ -19,19 +19,27 @@ function SkillSection() {
                 </div>
             </div>
             <div>
-                <p>Databases</p>
+                <p className={styles.skillHeading}>Databases</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"MongoDB"} />
                 <SkillTag skillName={"PSQL"} />
                 </div>
             </div>
             <div>
-                <p>Design Tools</p>
+                <p className={styles.skillHeading}>Languages</p>
+                <div className={styles.skillDetailsContainer}>
+                <SkillTag skillName={"Typescript"} />
+                <SkillTag skillName={"Javascript"} />
+                <SkillTag skillName={"C#"} />
+                </div>
+            </div>
+            <div>
+                <p className={styles.skillHeading}>Design Tools</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"Figma"} />
                 </div>
             </div>
-            <div>
+            <div className={styles.skillHeading}>
                 <p>Version Control</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"Github"} />

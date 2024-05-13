@@ -2,9 +2,12 @@
 import styles from "./Footer.module.css";
 
 function Footer() {
-    return (<div>
-        <p className={styles.text}>Thanks for reading till here</p>
-        <p className={styles.text}>It means alot to me</p>
+    return (<div className={styles.container}>
+        <div className={styles.circle}></div>
+        <div className={styles.circle}></div>
+        <div className={styles.circle}></div>
+        <div className={styles.circle}></div>
+        <div className={styles.circle}></div>
     </div>);
 }
 

@@ -1,10 +1,20 @@
 .container{
     padding: 0% var(--side-padding);
-    text-align: start;
+    text-align: center;
     margin-top: 32%;
 }
 
 .text{
     font-family: Poppins-Medium;
     font-size: 16px;
+}
+
+
+.contentContainer{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
