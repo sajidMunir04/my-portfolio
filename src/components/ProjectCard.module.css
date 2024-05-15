@@ -43,6 +43,13 @@
     align-items: center;
 }
 
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .link{
     width: 44%;
     text-decoration: none;
@@ -55,6 +62,7 @@
     border: 3px solid white;
     border-radius: 8px;
     border: 2px solid #717171;
+    height: 40px;
 }
 
 .image{
@@ -75,8 +83,33 @@
 
 .infoSection{
     height: 130px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 3%;
+}
+
+@media (max-width: 700px) {
+    .container{
+        width: 100%;
+        height: max-content;
+    }
+
+    .textContainer{
+        height: 290px;
+    }
+
+    .link{
+        font-size: 14px;
+    }
+
+    .imageContainer{
+        height: 250px;
+    }
+
+    .infoSection{
+        height: 100px;
+    }
 }

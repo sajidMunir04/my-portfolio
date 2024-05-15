@@ -18,3 +18,10 @@
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
+
+@media (max-width: 700px) {
+    .contentContainer{
+        flex-direction: column;
+    }
+}

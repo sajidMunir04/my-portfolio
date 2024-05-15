@@ -2,7 +2,7 @@ import SectionHeading from "./SectionHeading";
 import styles from "./Contact.module.css";
 
 function Contact() {
-    return (<div className={styles.container}>
+    return (<div className={styles.container} id="contact">
         <SectionHeading headingText={"Contact"}/>
         <form className={styles.form}>
             <div className={styles.inputFieldContainer}>

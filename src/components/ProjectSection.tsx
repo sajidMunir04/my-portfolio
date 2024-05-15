@@ -3,7 +3,7 @@ import SectionHeading from "./SectionHeading";
 import styles from "./ProjectSection.module.css";
 
 function ProjectSection() {
-    return (<div className={styles.container}>
+    return (<div className={styles.container} id="projects">
         <SectionHeading headingText={"Projects"}/>
         <p className={styles.text}>I started building out my project with plain HTML/CSS, and gradually moved to frameworks.
             The figma designs were taken from the freely available figma designs, but all the development

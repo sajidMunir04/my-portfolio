@@ -14,7 +14,7 @@ function ProjectCard(props : Props) {
         <div className={styles.imageContainer}>
             <img className={styles.image} src={props.imageLink}/>
         </div>
-        <div>
+        <div className={styles.contentContainer}>
             <div className={styles.textContainer}>
             <h3 className={styles.heading}>{props.projectHeading}</h3>
             <p className={styles.text}>{props.projectDescription}</p>
