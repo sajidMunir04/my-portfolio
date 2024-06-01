@@ -1,0 +1,34 @@
+.container{
+    width: 78px;
+    height: 78px;
+    background-color: white;
+    margin-right: 6%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px plum;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 38px;
+    height: 38px;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 0%;
+    text-align: center;
+    right: 0%;
+    top: 70%;
+    font-family: Poppins-SemiBold;
+    font-size: 14px;
+}

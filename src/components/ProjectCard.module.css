@@ -5,8 +5,9 @@
     box-sizing: border-box;
     background-color: rgba(62, 56, 56, 0.148);
     border-radius: 8px;
-    width: 48%;
-    height: 700px;
+    width: 49%;
+    height: 720px;
+    box-shadow: 1px 1px 6px plum;
 }
 
 .heading{
@@ -22,7 +23,7 @@
 
 
 .skillsContainer{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,10 +60,10 @@
     padding: 2% 6%;
     text-align: center;
     box-sizing: border-box;
-    border: 3px solid white;
     border-radius: 8px;
-    border: 2px solid #717171;
+    border: 2px solid #d1d1d1;
     height: 40px;
+    background-color: white;
 }
 
 .image{
@@ -82,7 +83,7 @@
 }
 
 .infoSection{
-    height: 130px;
+    height: 170px;
     width: 100%;
     display: flex;
     flex-direction: column;

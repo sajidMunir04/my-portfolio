@@ -26,6 +26,13 @@ function SkillSection() {
                 </div>
             </div>
             <div className={styles.skillSection}>
+                <p className={styles.skillHeading}>Project Managment</p>
+                <div className={styles.skillDetailsContainer}>
+                <SkillTag skillName={"JIRA"} />
+                <SkillTag skillName={"Trello"} />
+                </div>
+            </div>
+            <div className={styles.skillSection}>
                 <p className={styles.skillHeading}>Languages</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"Typescript"} />

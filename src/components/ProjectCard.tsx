@@ -1,10 +1,12 @@
+import { TechStack } from "../lib/TechStack";
 import styles from "./ProjectCard.module.css";
+import TechStackCard from "./TechStackCard";
 
 interface Props {
     projectHeading: string,
     projectDescription: string,
     imageLink: string,
-    techStacks: string[],
+    techStacks: TechStack[],
     sourceLink: string,
     demoLink: string
 }
@@ -20,7 +22,8 @@ function ProjectCard(props : Props) {
             <p className={styles.text}>{props.projectDescription}</p>
             </div>
             <div className={styles.infoSection}>
-                <div className={styles.skillsContainer}>{props.techStacks.map((imgLink) => <img className={styles.techImage} src={imgLink}/>)}</div>
+                <div className={styles.skillsContainer}>{props.techStacks.map((techStack) => <TechStackCard imageLink={techStack.imageLink}
+                 stackDetail={techStack.stackDetail}/>)}</div>
                 <div className={styles.linksContainer}>
                     <a href={props.sourceLink} className={styles.link}>View Source</a>
                     <a href={props.demoLink} className={styles.link}>Demo Link</a>
