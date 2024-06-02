@@ -20,12 +20,12 @@ function ProjectSection() {
             <ProjectCard projectHeading={"Your Bank - An online bank"}
             projectDescription={"After using wise.com, I was searching for a similar design to do in frontend, and this was the closest which I found, and it gave me a ground to practice alot of my skills"}
             imageLink={'/images/yourbank.png'} techStacks={yourBankTechStacks} sourceLink={'https://github.com/stuckrabbit/your-bank'} demoLink={'https://imaginarybank.netlify.app'}/>
-            <ProjectCard projectHeading={"Streamvibe - A video streaming platform"}
-            projectDescription={"This is my first angular project, which gave me alot of exposure to Angular framework, while I still like the framework itself but I think React is my favorite"}
-            imageLink={'/images/streamvibe.png'} techStacks={streamvibeTechStacks} sourceLink={'https://github.com/stuckrabbit/stream-vibe'} demoLink={'https://streamvibes.netlify.app'}/>
             <ProjectCard projectHeading={"SkillBridge - An online courses institute"}
             projectDescription={"This is my first React based project and I used chose Javascript for starting out with React. It gave me a lot of exposure to basic React principles and hooks mainly"}
             imageLink={'/images/skillbridge.png'} techStacks={skillbridgeTechStacks} sourceLink={'https://github.com/stuckrabbit/skillbridge'} demoLink={'https://skilledbridge.netlify.app'}/>
+            <ProjectCard projectHeading={"Streamvibe - A video streaming platform"}
+            projectDescription={"This is my first angular project, which gave me alot of exposure to Angular framework, this is current not mobile responsive due to the design issues I encountered, but the frontend attests to my skills in angular"}
+            imageLink={'/images/streamvibe.png'} techStacks={streamvibeTechStacks} sourceLink={'https://github.com/stuckrabbit/stream-vibe'} demoLink={'https://streamvibes.netlify.app'}/>
             <ProjectCard projectHeading={"Transitflow - A company's homepage"}
             projectDescription={"This was my first ever complete Plain HTML and CSS design. It consists of only Homepage and is not made screen responsive intentionally"}
             imageLink={'/images/transit-flow.png'} techStacks={transitflowTechStacks} sourceLink={'https://github.com/stuckrabbit/Transport-Company'} demoLink={'https://stuckrabbit.github.io/Transport-Company'}/>
