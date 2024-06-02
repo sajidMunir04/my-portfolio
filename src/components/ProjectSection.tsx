@@ -13,7 +13,7 @@ function ProjectSection() {
         <div className={styles.contentContainer}>
             <ProjectCard projectHeading={"Luminae - A brand's ecommerce store"}
             projectDescription={"This is a full stack e-commerce website developed on Next.js utilzing serverless backend with MongoDB as database"}
-            imageLink={'/images/Landing Desktop.png'} techStacks={luminaeTechStacks} sourceLink={'https://github.com/stuckrabbit/luminae'} demoLink={"https://luminaed.vercel.app/"}/>
+            imageLink={'/images/luminae.png'} techStacks={luminaeTechStacks} sourceLink={'https://github.com/stuckrabbit/luminae'} demoLink={"https://luminaed.vercel.app/"}/>
             <ProjectCard projectHeading={"Little Learners - A school"}
             projectDescription={"When I saw this figma design, its uniqueness compelled me do this complete frontend design in react which is fully responsive"}
             imageLink={'/images/littlelearners.png'} techStacks={littleLearnersTechStacks} sourceLink={'https://github.com/stuckrabbit/little-learners'} demoLink={'https://littlelearner.netlify.app'}/>
