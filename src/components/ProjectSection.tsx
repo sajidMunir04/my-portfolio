@@ -24,7 +24,7 @@ function ProjectSection() {
             projectDescription={"This is my first React based project and I used chose Javascript for starting out with React. It gave me a lot of exposure to basic React principles and hooks mainly"}
             imageLink={'/images/skillbridge.png'} techStacks={skillbridgeTechStacks} sourceLink={'https://github.com/stuckrabbit/skillbridge'} demoLink={'https://skilledbridge.netlify.app'}/>
             <ProjectCard projectHeading={"Streamvibe - A video streaming platform"}
-            projectDescription={"This is my first angular project, which gave me alot of exposure to Angular framework, this is current not mobile responsive due to the design issues I encountered, but the frontend attests to my skills in angular"}
+            projectDescription={"This is my first angular project, which gave me alot of exposure to Angular framework, this is still in development."}
             imageLink={'/images/streamvibe.png'} techStacks={streamvibeTechStacks} sourceLink={'https://github.com/stuckrabbit/stream-vibe'} demoLink={'https://streamvibes.netlify.app'}/>
             <ProjectCard projectHeading={"Transitflow - A company's homepage"}
             projectDescription={"This was my first ever complete Plain HTML and CSS design. It consists of only Homepage and is not made screen responsive intentionally"}
