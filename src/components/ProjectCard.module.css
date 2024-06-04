@@ -28,6 +28,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
+    height: max-content;
 }
 
 .imageContainer{
@@ -35,6 +37,7 @@
     height: 300px;
     width: 100%;
     overflow: hidden;
+    display: flex;
 }
 
 .linksContainer{
@@ -49,6 +52,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    height: max-content;
 }
 
 .link{
@@ -70,6 +74,7 @@
     object-fit: cover;
     max-width: 100%;
     max-height: 200%;
+    margin: auto;
 }
 
 .techImage{
@@ -94,12 +99,13 @@
 
 @media (max-width: 1100px) {
     .container{
-        width: 100%;
+        width: 88%;
         height: max-content;
+        padding-bottom: 2%;
     }
 
     .textContainer{
-        height: 290px;
+        height: 200px;
     }
 
     .link{
@@ -111,6 +117,42 @@
     }
 
     .infoSection{
-        height: 100px;
+        height: max-content;
+    }
+
+    .skillsContainer{
+        margin-bottom: 10px;
+    }
+
+    .linksContainer{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 740px) {
+    .container{
+        width: 100%;
+        height: max-content;
+    }
+
+    .textContainer{
+        height: 220px;
+    }
+
+    .link{
+        font-size: 14px;
+    }
+
+    .imageContainer{
+        height: 250px;
+    }
+
+
+    .skillsContainer{
+        margin-bottom: 10px;
+    }
+    
+    .linksContainer{
+        margin-bottom: 20px;
     }
 }

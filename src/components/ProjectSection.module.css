@@ -2,6 +2,7 @@
     padding: 0% var(--side-padding);
     text-align: center;
     margin-top: 32%;
+    box-sizing: border-box;
 }
 
 .text{
@@ -21,6 +22,13 @@
 
 
 @media (max-width: 1100px) {
+
+    .container{
+        width: 100%;
+        padding: 0% 1%;
+        box-sizing: border-box;
+    }
+
     .contentContainer{
         flex-direction: column;
         align-items: center;

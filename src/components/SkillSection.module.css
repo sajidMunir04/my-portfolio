@@ -2,6 +2,7 @@
     text-align: start;
     padding: 0% var(--side-padding);
     margin-top: 32%;
+    box-sizing: border-box;
 }
 
 .skillDetailsContainer{
@@ -24,4 +25,12 @@
 
 .contentContainer{
 
+}
+
+@media (max-width: 1100px) {
+    .container{
+        width: 100%;
+        padding: 0% 1%;
+        box-sizing: border-box;
+    }
 }
