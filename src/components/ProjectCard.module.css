@@ -92,7 +92,7 @@
     margin-bottom: 3%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1100px) {
     .container{
         width: 100%;
         height: max-content;
