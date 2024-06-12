@@ -9,7 +9,7 @@ function Header() {
             <a className={styles.navLink} href="#about">About Me</a>
             <a className={styles.navLink} href="#projects">Projects</a>
             <a className={styles.navLink} href="#skills">Skills</a>
-            <a className={styles.navLink} href="#contact">Contact</a>
+            {/*<a className={styles.navLink} href="#contact">Contact</a>*/}
         </nav>
     </motion.header>);
 }
