@@ -6,10 +6,10 @@ import { littleLearnersTechStacks, luminaeTechStacks, skillbridgeTechStacks, str
 function ProjectSection() {
     return (<div className={styles.container} id="projects">
         <SectionHeading headingText={"Projects"}/>
-        <p className={styles.text}>I started building out my project with plain HTML/CSS, and gradually moved to frameworks.
+        {/*<p className={styles.text}>I started building out my project with plain HTML/CSS, and gradually moved to frameworks.
             The figma designs were taken from the freely available figma designs, but all the development
             work is mine.
-        </p>
+        </p>*/}
         <div className={styles.contentContainer}>
             <ProjectCard projectHeading={"Luminae - A brand's ecommerce store"}
             projectDescription={"This is a full stack e-commerce website developed on Next.js utilzing serverless backend with MongoDB as database"}

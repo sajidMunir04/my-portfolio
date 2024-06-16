@@ -25,8 +25,12 @@ function ProjectCard(props : Props) {
                 <div className={styles.skillsContainer}>{props.techStacks.map((techStack) => <TechStackCard imageLink={techStack.imageLink}
                  stackDetail={techStack.stackDetail}/>)}</div>
                 <div className={styles.linksContainer}>
-                    <a href={props.sourceLink} className={styles.link}>View Source</a>
-                    <a href={props.demoLink} className={styles.link}>Demo Link</a>
+                    <div className={styles.linkSection}>
+                    <a href={props.sourceLink} className={styles.link}>Github</a>
+                    </div>
+                    <div className={styles.linkSection}>
+                    <a href={props.demoLink} className={styles.link}>Preview</a>
+                    </div>
                 </div>
             </div>   
         </div>

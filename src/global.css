@@ -28,6 +28,7 @@
 }
 
 body {
-    color: white;
+    background-color: var(--background-color);
+    color: var(--color);
     text-align: start;
 }
