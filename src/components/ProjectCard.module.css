@@ -4,10 +4,10 @@
     padding: 2%;
     box-sizing: border-box;
     background-color: #FFDECC;
-    border-radius: 8px;
+    border-radius: 4px;
     width: 49%;
     height: 720px;
-    box-shadow: 2px 4px 1px 2px rgb(44, 32, 44);
+    box-shadow: 4px 4px 0px 2px rgb(44, 32, 44);
     border: 2px solid black;
 }
 
@@ -55,8 +55,9 @@
     height: 42px;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
-    box-shadow: 2px 2px 1px 1px rgb(44, 32, 44);
+    border-radius: 4px;
+    box-shadow: 4px 4px 0px 2px rgb(44, 32, 44);
+    border: 2px solid black;
 }
 
 .contentContainer{
