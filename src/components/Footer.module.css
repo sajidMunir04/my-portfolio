@@ -10,7 +10,9 @@
 .circle{
     width: 38px;
     height: 38px;
-    background-color: black;
+    background-color: white;
     margin-inline: 2%;
-    border-radius: 50px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 0px 2px black;
+    border: 2px solid black;
 }
