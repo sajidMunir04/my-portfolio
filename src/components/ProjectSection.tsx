@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import SectionHeading from "./SectionHeading";
 import styles from "./ProjectSection.module.css";
-import { littleLearnersTechStacks, luminaeTechStacks, questeriaTechStacks, skillbridgeTechStacks, streamvibeTechStacks, transitflowTechStacks, yourBankTechStacks } from "../lib/ProjectsTechStacks";
+import { littleLearnersTechStacks, luminaeTechStacks, questeriaTechStacks, skillbridgeTechStacks, streamvibeTechStacks, yourBankTechStacks } from "../lib/ProjectsTechStacks";
 
 function ProjectSection() {
     return (<div className={styles.container} id="projects">
