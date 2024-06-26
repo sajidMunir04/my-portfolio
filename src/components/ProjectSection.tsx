@@ -22,7 +22,7 @@ function ProjectSection() {
             imageLink={'/images/littlelearners.png'} techStacks={littleLearnersTechStacks} sourceLink={'https://github.com/sajidMunir04/little-learners'} demoLink={'https://littlelearner.netlify.app'}/>
             <ProjectCard projectHeading={"Your Bank - An online bank"}
             projectDescription={"After using wise.com, I was searching for a similar design to do in frontend, and this was the closest which I found, and it gave me a ground to practice alot of my skills"}
-            imageLink={'/images/yourbank.png'} techStacks={yourBankTechStacks} sourceLink={'https://github.com/sajidMunir04/your-bank'} demoLink={'https://imaginarybank.netlify.app'}/>
+            imageLink={'/images/yourbank.png'} techStacks={yourBankTechStacks} sourceLink={'https://github.com/sajidMunir04/your-bank'} demoLink={'https://demosite123456.netlify.app/'}/>
             <ProjectCard projectHeading={"SkillBridge - An online courses institute"}
             projectDescription={"This is my first React based project and I used chose Javascript for starting out with React. It gave me a lot of exposure to basic React principles and hooks mainly"}
             imageLink={'/images/skillbridge.png'} techStacks={skillbridgeTechStacks} sourceLink={'https://github.com/sajidMunir04/skillbridge'} demoLink={'https://skilledbridge.netlify.app'}/>
