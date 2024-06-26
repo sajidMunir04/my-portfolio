@@ -16,6 +16,8 @@ function SkillSection() {
                 <SkillTag skillName={"Typescript"} />
                 <SkillTag skillName={"React"} />
                 <SkillTag skillName={"Angular"} />
+                <SkillTag skillName={"Node.js"} />
+                <SkillTag skillName={"express.js"} />
                 </div>
             </div>
             <div className={styles.skillSection}>
