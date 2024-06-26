@@ -16,7 +16,7 @@ function ProjectSection() {
             imageLink={'/images/luminae.png'} techStacks={luminaeTechStacks} sourceLink={'https://github.com/sajidMunir04/luminae'} demoLink={"https://luminaed.vercel.app/"}/>
             <ProjectCard projectHeading={"Questeria (In development)"}
             projectDescription={"It is an application in which user can create forms by selecting different types of question, using express.js as backend."}
-            imageLink={'/images/questeria.png'} techStacks={questeriaTechStacks} sourceLink={'https://github.com/sajidMunir04/questeria'} demoLink={''}/>
+            imageLink={'/images/questeria.webp'} techStacks={questeriaTechStacks} sourceLink={'https://github.com/sajidMunir04/questeria'} demoLink={''}/>
             <ProjectCard projectHeading={"Little Learners - A school"}
             projectDescription={"When I saw this figma design, its uniqueness compelled me do this complete frontend design in react which is fully responsive"}
             imageLink={'/images/littlelearners.png'} techStacks={littleLearnersTechStacks} sourceLink={'https://github.com/sajidMunir04/little-learners'} demoLink={'https://littlelearner.netlify.app'}/>
