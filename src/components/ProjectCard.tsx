@@ -28,9 +28,9 @@ function ProjectCard(props : Props) {
                     <div className={styles.linkSection}>
                     <a href={props.sourceLink} className={styles.link}>Github</a>
                     </div>
-                    <div className={styles.linkSection}>
+                    {props.demoLink.length > 0 && <div className={styles.linkSection}>
                     <a href={props.demoLink} className={styles.link}>Preview</a>
-                    </div>
+                    </div>}
                 </div>
             </div>   
         </div>

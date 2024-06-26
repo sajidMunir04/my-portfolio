@@ -39,6 +39,25 @@ export const littleLearnersTechStacks : TechStack[] = [
     }
 ];
 
+export const questeriaTechStacks : TechStack[] = [
+    {
+        imageLink: "/images/tech-stacks/react.svg",
+        stackDetail: "React"
+    },
+    {
+        imageLink: "/images/tech-stacks/ts.svg",
+        stackDetail: "Typescript"
+    },
+    {
+        imageLink: "/images/tech-stacks/html.svg",
+        stackDetail: "HTML"
+    },
+    {
+        imageLink: "/images/tech-stacks/css.svg",
+        stackDetail: "CSS"
+    }
+]
+
 export const yourBankTechStacks : TechStack[] = [
     {
         imageLink: "/images/tech-stacks/react.svg",
