@@ -49,12 +49,12 @@ export const questeriaTechStacks : TechStack[] = [
         stackDetail: "Typescript"
     },
     {
-        imageLink: "/images/tech-stacks/html.svg",
-        stackDetail: "HTML"
+        imageLink: "/images/tech-stacks/expressjs.webp",
+        stackDetail: "express.js"
     },
     {
-        imageLink: "/images/tech-stacks/css.svg",
-        stackDetail: "CSS"
+        imageLink: "/images/tech-stacks/postgresql.svg",
+        stackDetail:"PSQL"
     }
 ]
 
