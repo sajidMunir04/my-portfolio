@@ -3,9 +3,7 @@ import styles from "./About.module.css";
 function About() {
     return (<div className={styles.container} id="about">
         <h2 className={styles.heading}>About Me</h2>
-        <p className={styles.text}>I am curios, good listener and have a problem solving mindset.
-         I believe that one should be able to analyze the value or potential output of each choice or decision
-            and come with a best value approach which is feasible as well.
+        <p className={styles.text}>I discovered my passion for web development, when I realized how these solutions are helping people every day, and now when I have completed my courses and with several projects under my belt and most of my work on end-to-end development, I am looking for an entry level opportunity to be a part of a team, where I can grow and make an impact.
         </p>
     </div>);
 }
