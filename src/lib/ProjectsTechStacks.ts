@@ -114,10 +114,6 @@ export const jobhuntlyTechStacks : TechStack[] = [
     {
         imageLink: "/images/tech-stacks/html.svg",
         stackDetail: "HTML"
-    },
-    {
-        imageLink: "/images/tech-stacks/css.svg",
-        stackDetail: "CSS"
     }
 ];
 
@@ -138,10 +134,6 @@ export const thecoachTechStacks : TechStack[] = [
     {
         imageLink: "/images/tech-stacks/html.svg",
         stackDetail: "HTML"
-    },
-    {
-        imageLink: "/images/tech-stacks/css.svg",
-        stackDetail: "CSS"
     }
 ];
 
