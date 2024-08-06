@@ -13,7 +13,7 @@ function ProjectSection() {
         <div className={styles.contentContainer}>
             <ProjectCard projectHeading={"Job Huntly"}
             projectDescription={"This is a job board based on Wordpress, and using ACF for custom post types."}
-            imageLink={'/images/streamvibe.webp'} techStacks={jobhuntlyTechStacks} sourceLink={'https://github.com/sajidMunir04/job-huntly'} demoLink={'https://jobhuntly.cloudaccess.host'}/>
+            imageLink={'/images/job-huntly.webp'} techStacks={jobhuntlyTechStacks} sourceLink={'https://github.com/sajidMunir04/job-huntly'} demoLink={'https://jobhuntly.cloudaccess.host'}/>
             <ProjectCard projectHeading={"Luminae - A brand's ecommerce store"}
             projectDescription={"This is a full stack e-commerce website developed on Next.js utilzing serverless backend with MongoDB as database"}
             imageLink={'/images/luminae.webp'} techStacks={luminaeTechStacks} sourceLink={'https://github.com/sajidMunir04/luminae'} demoLink={"https://luminaed.vercel.app/"}/>
@@ -26,9 +26,9 @@ function ProjectSection() {
             <ProjectCard projectHeading={"Your Bank - An online bank"}
             projectDescription={"After using wise.com, I was searching for a similar design to do in frontend, and this was the closest which I found, and it gave me a ground to practice alot of my skills"}
             imageLink={'/images/yourbank.webp'} techStacks={yourBankTechStacks} sourceLink={'https://github.com/sajidMunir04/your-bank'} demoLink={'https://demosite123456.netlify.app/'}/>
-            <ProjectCard projectHeading={"SkillBridge - An online courses institute"}
-            projectDescription={"This is a front-end for custom theme development in Wordpress CMS, and demonstrates my ability for perfect design conversions."}
-            imageLink={'/images/skillbridge.webp'} techStacks={thecoachTechStacks} sourceLink={'https://github.com/sajidMunir04/businesscoach'} demoLink={'http://sajidmunir.42web.io'}/>
+            <ProjectCard projectHeading={"The Business Coach"}
+            projectDescription={"This is a front-end for custom theme development in Wordpress CMS, and demonstrates my ability for perfect design conversions from Figma."}
+            imageLink={'/images/thecoach.webp'} techStacks={thecoachTechStacks} sourceLink={'https://github.com/sajidMunir04/businesscoach'} demoLink={'http://sajidmunir.42web.io'}/>
             <ProjectCard projectHeading={"SkillBridge - An online courses institute"}
             projectDescription={"This is my first React based project and I used chose Javascript for starting out with React. It gave me a lot of exposure to basic React principles and hooks mainly"}
             imageLink={'/images/skillbridge.webp'} techStacks={skillbridgeTechStacks} sourceLink={'https://github.com/sajidMunir04/skillbridge'} demoLink={'https://skilledbridge.netlify.app'}/>

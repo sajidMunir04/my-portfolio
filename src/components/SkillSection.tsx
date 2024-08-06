@@ -21,17 +21,16 @@ function SkillSection() {
                 </div>
             </div>
             <div className={styles.skillSection}>
+                <p className={styles.skillHeading}>CMS</p>
+                <div className={styles.skillDetailsContainer}>
+                <SkillTag skillName={"Wordpress"} />
+                </div>
+            </div>
+            <div className={styles.skillSection}>
                 <p className={styles.skillHeading}>Databases</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"MongoDB"} />
                 <SkillTag skillName={"PSQL"} />
-                </div>
-            </div>
-            <div className={styles.skillSection}>
-                <p className={styles.skillHeading}>Project Managment</p>
-                <div className={styles.skillDetailsContainer}>
-                <SkillTag skillName={"JIRA"} />
-                <SkillTag skillName={"Trello"} />
                 </div>
             </div>
             <div className={styles.skillSection}>
@@ -46,13 +45,6 @@ function SkillSection() {
                 <p className={styles.skillHeading}>Design Tools</p>
                 <div className={styles.skillDetailsContainer}>
                 <SkillTag skillName={"Figma"} />
-                </div>
-            </div>
-            <div className={styles.skillSection}>
-                <p className={styles.skillHeading}>Version Control</p>
-                <div className={styles.skillDetailsContainer}>
-                <SkillTag skillName={"Github"} />
-                <SkillTag skillName={"BitBucket"} />
                 </div>
             </div>
         </div>

@@ -128,12 +128,12 @@ export const thecoachTechStacks : TechStack[] = [
         stackDetail: "Php"
     },
     {
-        imageLink: "/images/tech-stacks/database.webp",
-        stackDetail: "MySQL"
-    },
-    {
         imageLink: "/images/tech-stacks/html.svg",
         stackDetail: "HTML"
+    },
+    {
+        imageLink: "/images/tech-stacks/css.svg",
+        stackDetail: "CSS"
     }
 ];
 
