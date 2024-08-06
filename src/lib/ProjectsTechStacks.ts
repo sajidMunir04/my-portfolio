@@ -98,6 +98,53 @@ export const streamvibeTechStacks : TechStack[] = [
 ];
 
 
+export const jobhuntlyTechStacks : TechStack[] = [
+    {
+        imageLink: "/images/tech-stacks/wordpress.webp",
+        stackDetail: "Wordpress"
+    },
+    {
+        imageLink: "/images/tech-stacks/php.webp",
+        stackDetail: "Php"
+    },
+    {
+        imageLink: "/images/tech-stacks/database.webp",
+        stackDetail: "MySQL"
+    },
+    {
+        imageLink: "/images/tech-stacks/html.svg",
+        stackDetail: "HTML"
+    },
+    {
+        imageLink: "/images/tech-stacks/css.svg",
+        stackDetail: "CSS"
+    }
+];
+
+
+export const thecoachTechStacks : TechStack[] = [
+    {
+        imageLink: "/images/tech-stacks/wordpress.webp",
+        stackDetail: "Wordpress"
+    },
+    {
+        imageLink: "/images/tech-stacks/php.webp",
+        stackDetail: "Php"
+    },
+    {
+        imageLink: "/images/tech-stacks/database.webp",
+        stackDetail: "MySQL"
+    },
+    {
+        imageLink: "/images/tech-stacks/html.svg",
+        stackDetail: "HTML"
+    },
+    {
+        imageLink: "/images/tech-stacks/css.svg",
+        stackDetail: "CSS"
+    }
+];
+
 export const skillbridgeTechStacks : TechStack[] = [
     {
         imageLink: "/images/tech-stacks/react.svg",
