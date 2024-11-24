@@ -11,9 +11,9 @@ function ProjectSection() {
             work is mine.
         </p>*/}
         <div className={styles.contentContainer}>
-            <ProjectCard projectHeading={"Job Huntly"}
+            {/*<ProjectCard projectHeading={"Job Huntly"}
             projectDescription={"This is a job board based on Wordpress, and using ACF for custom post types."}
-            imageLink={'/images/job-huntly.webp'} techStacks={jobhuntlyTechStacks} sourceLink={'https://github.com/sajidMunir04/job-huntly'} demoLink={'https://jobhuntly.cloudaccess.host'}/>
+            imageLink={'/images/job-huntly.webp'} techStacks={jobhuntlyTechStacks} sourceLink={'https://github.com/sajidMunir04/job-huntly'} demoLink={'https://jobhuntly.cloudaccess.host'}/>*/}
             <ProjectCard projectHeading={"Luminae - A brand's ecommerce store"}
             projectDescription={"This is a full stack e-commerce website developed on Next.js utilzing serverless backend with MongoDB as database"}
             imageLink={'/images/luminae.webp'} techStacks={luminaeTechStacks} sourceLink={'https://github.com/sajidMunir04/luminae'} demoLink={"https://luminaed.vercel.app/"}/>
